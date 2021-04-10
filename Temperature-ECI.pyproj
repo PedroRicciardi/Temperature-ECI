@@ -40,6 +40,8 @@
     <Folder Include="Temperature_ECI\templates\" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="Pipfile" />
+    <Content Include="Procfile" />
     <Content Include="requirements.txt" />
     <Content Include="Temperature_ECI\static\content\bootstrap.css" />
     <Content Include="Temperature_ECI\static\content\bootstrap.min.css" />
