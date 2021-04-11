@@ -12,7 +12,7 @@ def temperatura():
 	req = None
 
 	cidade = request.args.get("city_name")
-	link = 'https://api.hgbrasil.com/weather?key=283fef9b&=city_name='+cidade
+	link = 'https://api.hgbrasil.com/weather?key=e26a7a30&city_name='+ cidade
 	try:
 		req = requests.get(link)
 	
