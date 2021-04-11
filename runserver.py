@@ -3,6 +3,7 @@ This script runs the Temperature_ECI application using a development server.
 """
 
 from os import environ
+#import Temperature_ECI
 from Temperature_ECI import app
 
 if __name__ == '__main__':
